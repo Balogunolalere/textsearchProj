@@ -1,0 +1,5 @@
+docarray[hnswlib]
+transformers 
+torch 
+numpy 
+pandas
