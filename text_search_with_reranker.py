@@ -17,8 +17,6 @@ from docarray.typing import NdArray
 from docarray.index import HnswDocumentIndex
 from transformers import AutoModelForSequenceClassification, AutoModel
 import torch
-import numpy as np
-from numpy.linalg import norm
 
 # Load the MovieLens dataset
 movies = pd.read_csv('ml-latest-small/movies.csv')
